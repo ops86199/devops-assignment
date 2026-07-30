@@ -6,7 +6,7 @@ This project is a real-time WebSocket chat application deployed using Docker, Do
 
 The backend is a FastAPI + Uvicorn WebSocket server. The frontend is static HTML/JS served by Nginx, which also reverse-proxies WebSocket traffic (`/ws`) to the backend container. The original repository was provided with intentionally broken deployment configuration; this document explains the issues found and how each was fixed.
 
-- **Live Public IP:** `http://51.20.193.114`
+- **Live Public IP:** `http://13.49.131.59`
 - **Repository:** (link to your fork)
 
 > **Note on HTTPS:** This deployment serves plain HTTP only (no domain name / SSL certificate is attached to a bare IP). Some browsers auto-upgrade addresses to HTTPS by default. If the page fails to load, open the link in an Incognito/Private window and type `http://51.20.193.114` explicitly, or disable "Always use secure connections" in your browser's security settings.
